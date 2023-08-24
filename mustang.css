@@ -1,0 +1,298 @@
+body {
+    background-color: rgba(0, 0, 0, 0.929);
+    margin: 0; 
+      
+}
+html {
+    overflow-x:hidden !important;
+    
+}
+
+.background {
+    height: 850px;
+    background-image: url("https://github.com/Mahaboob2k1/mastang/blob/main/peakpx%20(1).jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-color: #000015; 
+    width: 100%;
+}    
+.cover {
+    height: 850px;
+    width: 100%;
+    background-color: rgba(9, 21, 32, 0.787);
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(13, 13, 13, 0.806);
+    position: fixed;
+    z-index: 10;
+    
+}
+
+.logo-img {
+    height: 150px;
+    padding-left: 100px; 
+}
+.logo-img:hover {
+    
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 30px;
+    padding-right: 80px;
+    color: rgb(166, 102, 13);
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.about:hover {
+    color: white;
+}
+.title {
+    color: rgb(247, 34, 34);
+    display: flex;
+    padding-top: 200px;
+    padding-left: 200px;
+    font-size: 60px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 0px;
+    
+}
+.description {
+    color: silver;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 200px;
+    width: 50%;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 200;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    
+}
+.social-media {
+    margin-top: 0px;
+    display: block;
+    padding-top: 30px;
+    padding-left: 200px;
+    width: 100%;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 100;
+    color: darkgrey;
+    
+}
+.icons{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: rgb(73, 95, 35);
+    margin-right: 10px;
+    
+}
+.icons:hover {
+    cursor: pointer;
+    color: rgba(73, 95, 35, 0.661);
+}
+.socil-media-icons {
+    display: flex;
+}
+
+
+.h2 {
+    color: rgb(32, 116, 213);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+   
+}
+.model-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 130px; 
+    padding-left: 200px;
+    padding-right: 200px;  
+}
+.model {
+    display: grid;
+    row-gap: 80px;
+   
+}
+.each-model {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-weight: 400;
+    border:1px solid gray;
+    background: rgba(255, 75, 255, 0.1);
+    box-shadow: 0 8px 40px 0 rgba(38, 52, 249, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba(185, 185, 185, 0.18);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.each-model:hover {
+    opacity: 0.7;
+}
+.hell{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.first-model {
+    height: 180px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.h4 {
+    color: rgb(32, 116, 213);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.details-of-cars {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+.features {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-width: 1px rgb(37, 37, 37);
+    border-style: solid;
+    margin-bottom: 40px;
+    background-color: rgba(19, 0, 36, 0.886);
+    border-radius: 10px;
+    box-shadow: 0px 8px 30px 0px rgba(255, 17, 172, 0.342);
+}
+.second-model {
+    height: 180px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.text {
+    color: rgb(0, 147, 206);
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 30px;
+  
+}
+.h3 {
+    color: rgb(255, 174, 0);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px; 
+}
+.last-page  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.new-model {
+    display: inline-block;
+    border-radius: 20px;
+    margin-right: 50px;
+    rotate: 10deg;
+    box-shadow: 0 10px 50px 0 rgba(38, 52, 249, 0.37);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.email {
+   width: 250px;
+    padding: 15px 10px 15px 10px;
+    background-color: rgb(212, 212, 212);
+    border-style: solid;
+    border-radius: 5px;
+    color: #000015;
+    font-size: 16px;
+    font-family: Roboto;
+    
+}
+
+.submit {
+    background-color: #000015;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 300;
+    padding: 10px 30px 10px 30px;
+    box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.18);
+    transition: opacity 0.15s;
+    transition: padding 0.15s;
+}
+.submit:hover {
+    opacity: 0.4;
+}
+.submit:active {
+    padding: 10px 35px 10px 35px;
+}
+
+
+.left p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin: 5px;
+    font-weight: 400;
+    line-height: 30px;  
+}
+
+
+
+    
+  
